@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Horóscopo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="horoscope-container"></div>
+    <div id="dateError" class="error"></div>
+    
+    <label>Fecha de nacimiento (dd-mm-aaaa)</label>
+    <input type="text" placeholder="dd-mm-aaaa" id="date">
+    <button id="get-horoscope" disabled>Consultar</button>
+
+    <script type="module" src="controller.js" defer></script>
+  </body>
+</html>

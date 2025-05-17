@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+#horoscope-container {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#horoscope-container.fade-out {
+  opacity: 0;
+}
+
+.error {
+  color: red;
+  display: none;
+  margin: 5px 0;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
